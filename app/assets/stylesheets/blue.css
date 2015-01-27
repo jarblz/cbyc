@@ -1,0 +1,99 @@
+/*
+* Elite - Landing Page
+* Version: 1.2.1
+* Copyright 2015
+* Created by: DamterThemes
+* URL: https://wrapbootstrap.com/user/damterthemes
+* Designed and built based on Twitter Bootstrap 3. 
+*/
+
+/*
+**********************************************
+**********************************************
+CONTENTS:
+
+01 General Styles
+02 Header
+03 Product
+04 Features
+05 Services
+06 Pricing
+07 Coming Soon
+
+**********************************************
+**********************************************
+*/
+
+/*
+**********************************************
+01 General Styles 
+**********************************************
+*/
+
+/* Typography */
+.section-title span { color:#2db2ea; }
+
+::-moz-selection {
+background: #2db2ea;
+}
+::-webkit-selection { background: #2db2ea; }
+
+/* Buttons */
+/* .btn-custom-1 */
+.btn-custom-1:hover, .btn-custom-1:focus, .btn-custom-1:active, .btn-custom-1.active { background: rgba(43,177,236,1); }
+/* .btn-custom-2 */
+.btn-custom-2 { background-color: #138dc1; border: 1px solid #138dc1; }
+.btn-custom-2:hover, .btn-custom-2:focus, .btn-custom-2:active, .btn-custom-2.active { background-color: #17a6e3; border: 1px solid #17a6e3; }
+.btn-custom-2.disabled:hover, .btn-custom-2.disabled:focus, .btn-custom-2.disabled:active, .btn-custom-2.disabled.active, .btn-custom-2[disabled]:hover, .btn-custom-2[disabled]:focus, .btn-custom-2[disabled]:active, .btn-custom-2[disabled].active, fieldset[disabled] .btn-custom-2:hover, fieldset[disabled] .btn-custom-2:focus, fieldset[disabled] .btn-custom-2:active, fieldset[disabled] .btn-custom-2.active { background-color: #138dc1; border: 1px solid #138dc1; }
+
+/* Carousel fade */
+.carousel-indicators { background: rgba(45, 178, 234, 0.8); }
+
+/* Panel */
+.panel-default > .panel-heading:hover { background: #16a5e2; }
+
+/*
+**********************************************
+02 Header 
+**********************************************
+*/
+header { border-top: 5px solid #2db2ea; }
+.logo h2 span { color: #2db2ea; }
+
+/*
+**********************************************
+03 Product
+**********************************************
+*/
+#product ul li i { color: #40b8ec; }
+.form-subscribe { background-color: #26536e; border: 1px solid #1d4054; border-top: 5px solid #2db2ea;  }
+
+/*
+**********************************************
+04 Features
+**********************************************
+*/
+.panel-default > .panel-heading { background-color: #2db2ea; }
+
+/*
+**********************************************
+05 Services 
+**********************************************
+*/
+.faq-cat-content .panel-heading:hover { background-color: #16a5e2; }
+
+/*
+**********************************************
+06 Pricing
+**********************************************
+*/
+#pricing-table .panel-heading { background: #2db2ea; }
+#pricing-table .panel-body { color: #2db2ea; }
+#pricing-table .panel.popular { border: 2px solid rgba(45, 178, 234, 1); }
+
+/*
+**********************************************
+07 Coming Soon
+**********************************************
+*/
+.form-subscribe-coming-soon { background-color: rgba(38, 83, 110, 0.5); }
