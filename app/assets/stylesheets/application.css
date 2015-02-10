@@ -11,10 +11,5 @@
  * file per style scope.
  *
  *= require_self
- *= require wide
- *= require blue
- *= require prettyPhoto
- *= require switcher
- *= require font-awesome
  *= require_tree .
  */
