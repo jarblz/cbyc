@@ -64,7 +64,7 @@ jQuery('#ajax-contacts').submit(function () {
     jQuery("#message-contact").html("<div class='alert alert-danger'>Sending message...</div>");
     jQuery.ajax({
         type: 'POST',
-        url: 'php/contact/contact.php',
+        url: '/email',
         data: 'email=' + email + '&name=' + name + '&subject=' + subject + '&message=' + message,
         success: function (msg) {
             jQuery('#message-contact').html(msg);

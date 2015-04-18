@@ -172,7 +172,7 @@ iframe { border: none; }
 03 Product
 **********************************************
 */
-#product { color: #ffffff; margin: 0 auto; background: url("/images/backgrounds/bg-1-1920px.jpg") #292a2b no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+#product { color: #ffffff; margin: 0 auto; background: url("/images/backgrounds/cbyc7.jpg") #292a2b no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .product-background { text-align:center; background: rgba(0,0,0,.5); margin: 0 auto; padding-top:22px; padding-bottom: 40px; -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset; -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset; box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset; }
 .product-content { padding-top:15px; }
 .product-title { margin-top: 0; }
