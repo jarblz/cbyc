@@ -3,6 +3,6 @@ class UserMailer < ActionMailer::Base
   	mail(to: "jaredables@gmail.com", 
   		 subject: "#{name} would like to correspond about caricatures",
   		 from: "#{email}")
-  	puts "mailed something!"
+  	puts "mailed something to #{email}"
   end
 end
