@@ -28,7 +28,7 @@ Contact form
 ********************************************/
 
 //Validations
-var name, email, subject, message;
+/*var name, email, subject, message;
 jQuery("#send-contact").click(function () {
     jQuery(".error").hide();
     var form = jQuery(this).closest('#ajax-contacts');
@@ -74,7 +74,7 @@ jQuery('#ajax-contacts').submit(function () {
         }
     });
     return false;
-});
+});*/
 
 /*******************************************
 prettyPhoto Initialization

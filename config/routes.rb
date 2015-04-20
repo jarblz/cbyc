@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
   root 'home#home'
   post '/email' => 'home#email'
+  get '/email' => 'home#email'
+  post '/home' => 'home#home'
+  get '/home' => 'home#home'
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
