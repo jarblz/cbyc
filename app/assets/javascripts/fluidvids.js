@@ -22,16 +22,16 @@
             /*
              * RegExp, extend this if you need more players
              */
-            players = /www.youtube.com|player.vimeo.com/;
-
+            //console.log(iframe.search('vimeo.com'))
         /*
          * If the RegExp pattern exists within the current iframe
          */
-        if (iframe.src.search(players) > 0) {
+
+        if (iframe.src.search('vimeo.com') ==! -1) {
 
             /*
              * Calculate the video ratio based on the iframe's w/h dimensions
-             */
+             */fluidvids
             var videoRatio = (iframe.height / iframe.width) * 100;
 
             /*
