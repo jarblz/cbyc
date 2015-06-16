@@ -9,8 +9,8 @@ class UserMailer < ActionMailer::Base
   	@user_email = email
   	@user_subject = subject
   	@user_message = body
-  	mail(to: "charicaturesbychris@gmail.com", 
+  	mail(to: "caricaturesbychris@gmail.com", 
   		 subject: "#{subject}",
-  		 from: "charicaturesbychris@gmail.com")
+  		 from: "caricaturesbychris@gmail.com")
   end
 end
